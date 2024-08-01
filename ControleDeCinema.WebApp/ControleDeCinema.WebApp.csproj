@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Filme\" />
+    <Folder Include="Views\Genero\" />
+    <Folder Include="Views\Ingresso\" />
+    <Folder Include="Views\Sessao\" />
+    <Folder Include="Views\Sala\" />
+  </ItemGroup>
+
+</Project>
