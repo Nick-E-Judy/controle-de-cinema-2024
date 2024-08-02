@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ControleDeCinema.Dominio.ModuloAssento
+﻿namespace ControleDeCinema.Dominio.ModuloAssento
 {
-    internal class Filme
+    public class Filme
     {
+        public int teste { get; set; }
+
     }
 }

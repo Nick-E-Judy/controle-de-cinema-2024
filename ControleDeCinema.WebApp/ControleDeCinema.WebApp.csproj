@@ -7,11 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Filme\" />
-    <Folder Include="Views\Genero\" />
-    <Folder Include="Views\Ingresso\" />
-    <Folder Include="Views\Sessao\" />
-    <Folder Include="Views\Sala\" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControleDeCinema.Dominio\ControleDeCinema.Dominio.csproj" />
+    <ProjectReference Include="..\ControleDeCinema.Infra.Orm\ControleDeCinema.Infra.Orm.csproj" />
   </ItemGroup>
 
 </Project>

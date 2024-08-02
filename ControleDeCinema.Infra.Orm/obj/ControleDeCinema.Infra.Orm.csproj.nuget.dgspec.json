@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Infra.Orm\\ControleDeCinema.Infra.Orm.csproj": {}
+    "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Infra.Orm\\ControleDeCinema.Infra.Orm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj": {
+    "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj",
         "projectName": "ControleDeCinema.Dominio",
-        "projectPath": "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj",
+        "projectPath": "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,17 +19,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Infra.Orm\\ControleDeCinema.Infra.Orm.csproj": {
+    "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Infra.Orm\\ControleDeCinema.Infra.Orm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Infra.Orm\\ControleDeCinema.Infra.Orm.csproj",
+        "projectUniqueName": "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Infra.Orm\\ControleDeCinema.Infra.Orm.csproj",
         "projectName": "ControleDeCinema.Infra.Orm",
-        "projectPath": "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Infra.Orm\\ControleDeCinema.Infra.Orm.csproj",
-        "packagesPath": "C:\\Users\\vanes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Infra.Orm\\obj\\",
+        "projectPath": "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Infra.Orm\\ControleDeCinema.Infra.Orm.csproj",
+        "packagesPath": "C:\\Users\\luise\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Infra.Orm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vanes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luise\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,8 +44,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj": {
-                "projectPath": "C:\\Users\\vanes\\Source\\Repos\\controle-de-cinema-2024\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj"
+              "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj": {
+                "projectPath": "C:\\Users\\luise\\OneDrive\\Documents\\AcademiaDoProgramador\\Controle-De-Cinema\\ControleDeCinema.Dominio\\ControleDeCinema.Dominio.csproj"
               }
             }
           }
@@ -66,6 +66,12 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
             },

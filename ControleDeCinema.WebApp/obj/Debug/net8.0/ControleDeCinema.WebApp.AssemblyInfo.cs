@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleDeCinema.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3bfca6be42f60b618af20a4c9a2ca79ea05a803")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62c25652f74b9955f5c2b2110dcd6a455b9423fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleDeCinema.WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleDeCinema.WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

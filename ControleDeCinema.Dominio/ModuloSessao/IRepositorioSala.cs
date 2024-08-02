@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleDeCinema.Dominio.ModuloAssento
+namespace ControleDeCinema.Dominio.ModuloSala
 {
-    internal interface IRepositorioIngresso
+    public interface IRepositorioSala
     {
     }
 }

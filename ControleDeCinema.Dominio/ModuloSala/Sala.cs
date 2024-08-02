@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ControleDeCinema.Dominio.ModuloAssento
 {
-    internal class Ingresso
+    public class Sala
     {
     }
 }
