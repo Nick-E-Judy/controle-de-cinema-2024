@@ -38,6 +38,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZW50b1xsaXN0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/luise/OneDrive/Documents/AcademiaDoProgramador/Controle-De-Cinema/ControleDeCinema.WebApp/Views/Filme/detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVcZGV0YWxoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/luise/OneDrive/Documents/AcademiaDoProgramador/Controle-De-Cinema/ControleDeCinema.WebApp/Views/Filme/editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVcZWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/luise/OneDrive/Documents/AcademiaDoProgramador/Controle-De-Cinema/ControleDeCinema.WebApp/Views/Filme/excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVcZXhjbHVpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/luise/OneDrive/Documents/AcademiaDoProgramador/Controle-De-Cinema/ControleDeCinema.WebApp/Views/Filme/inserir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVcaW5zZXJpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/luise/OneDrive/Documents/AcademiaDoProgramador/Controle-De-Cinema/ControleDeCinema.WebApp/Views/Filme/listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVcbGlzdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/luise/OneDrive/Documents/AcademiaDoProgramador/Controle-De-Cinema/ControleDeCinema.WebApp/Views/Genero/detalhes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXGRldGFsaGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

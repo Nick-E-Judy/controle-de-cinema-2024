@@ -1,0 +1,59 @@
+﻿@model InserirFilmeViewModel
+
+@{
+	Layout = "_Layout";
+	ViewBag.Title = "Cadastrar Filme";
+}
+
+<div class="row mt-3">
+	<div class="col-lg-6">
+		<form class="d-grid gap-4" asp-action="Inserir">
+
+			<div class="mt-2">
+				<label class="control-label fw-semibold">Título do Filme:</label>
+				<input class="form-control" asp-for="Titulo" />
+				<span class="text-danger my-1" asp-validation-for="Titulo"></span>
+			</div>
+
+			<div class="mt-2">
+				<label class="control-label fw-semibold">Sinopse:</label>
+				<input class="form-control" asp-for="Sinopse" id="sinopse" />
+				<span class="text-danger my-1" asp-validation-for="Sinopse"></span>
+			</div>
+
+			<div class="mt-2">
+				<label class="control-label fw-semibold">Lançamento:</label>
+				<input type="date" class="form-control" asp-for="Lancamento" id="lancamento" />
+				<span class="text-danger my-1" asp-validation-for="Lancamento"></span>
+			</div>
+
+			<div class="mt-2">
+				<label class="control-label fw-semibold">Duração:</label>
+				<input type="time" class="form-control" asp-for="Duracao" id="duracao" />
+				<span class="text-danger my-1" asp-validation-for="Duracao"></span>
+			</div>
+
+			<div class="mt-2">
+				<label class="control-label">Mesa:</label>
+				<select class="form-select" asp-for="IdGenero" asp-items="Model.Generos">
+					<option></option>
+				</select>
+				<span class="text-danger my-1" asp-validation-for="IdGenero"></span>
+			</div>
+
+			<div class="mt-2 d-grid gap-2 d-md-block">
+				<button class="btn btn-primary px-5">
+					<i class="bi bi-floppy-fill me-1"></i>
+					Gravar
+				</button>
+
+				<a class="btn btn-secondary px-5" href="/filme/listar">
+					<i class="bi bi-arrow-return-left me-1"></i>
+					Voltar
+				</a>
+
+			</div>
+		</form>
+
+	</div>
+</div>

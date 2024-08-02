@@ -1,0 +1,39 @@
+﻿@model EditarFilmeViewModel
+
+@{
+	Layout = "_Layout";
+	ViewBag.Title = "Editar Assento";
+}
+
+<div class="row mt-3">
+	<div class="col-lg-6">
+		<form class="d-grid gap-4" asp-action="Editar">
+
+			<div class="mt-2">
+				<label class="control-label fw-semibold">Título do Filme:</label>
+				<input class="form-control" asp-for="Titulo" />
+				<span class="text-danger my-1" asp-validation-for="Titulo"></span>
+			</div>
+
+			<div class="mt-2">
+				<label class="control-label fw-semibold">Sinopse do Filme:</label>
+				<input class="form-control" asp-for="Sinopse" id="sinopse" />
+				<span class="text-danger my-1" asp-validation-for="Sinopse"></span>
+			</div>
+
+			<div class="mt-2 d-grid gap-2 d-md-block">
+				<button class="btn btn-primary px-5">
+					<i class="bi bi-floppy-fill me-1"></i>
+					Gravar
+				</button>
+
+				<a class="btn btn-secondary px-5" href="/filme/listar">
+					<i class="bi bi-arrow-return-left me-1"></i>
+					Voltar
+				</a>
+
+			</div>
+		</form>
+
+	</div>
+</div>

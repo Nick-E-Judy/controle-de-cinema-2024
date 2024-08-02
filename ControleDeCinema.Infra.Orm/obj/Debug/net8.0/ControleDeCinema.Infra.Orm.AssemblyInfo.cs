@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleDeCinema.Infra.Orm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62c25652f74b9955f5c2b2110dcd6a455b9423fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac75a5dd86fd671ccbc341af527a479591bc50c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleDeCinema.Infra.Orm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleDeCinema.Infra.Orm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

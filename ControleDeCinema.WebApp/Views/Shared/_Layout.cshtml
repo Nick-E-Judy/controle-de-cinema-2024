@@ -4,7 +4,7 @@
     var mesaAtivo = caminho.StartsWith("/mesa") ? "nav-link active" : "nav-link";
     var assentoAtivo = caminho.StartsWith("/assento") ? "nav-link active" : "nav-link";
     var generoAtivo = caminho.StartsWith("/genero") ? "nav-link active" : "nav-link";
-    var contaAtivo = caminho.StartsWith("/conta") ? "nav-link active" : "nav-link";
+    var filmeAtivo = caminho.StartsWith("/filme") ? "nav-link active" : "nav-link";
 }
 
 <!DOCTYPE html>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body class="d-flex flex-column min-vh-100">
-    <nav class="container">
+    <nav class="filmeiner">
         <header class="row row-cols-2 align-items-center my-3">
             <label class="fs-3 fw-semibold">Controle de Cinema</label>
 
@@ -25,7 +25,7 @@
                 <li class="nav-item"><a href="/mesa/listar" class="@mesaAtivo">Mesas</a></li>
                 <li class="nav-item"><a href="/assento/listar" class="@assentoAtivo">Assentos</a></li>
                 <li class="nav-item"><a href="/genero/listar" class="@generoAtivo">Gêneros</a></li>
-                <li class="nav-item"><a href="/conta/listar" class="@contaAtivo">Conta</a></li>
+                <li class="nav-item"><a href="/filme/listar" class="@filmeAtivo">Filmes</a></li>
             </ul>
         </header>
     </nav>
